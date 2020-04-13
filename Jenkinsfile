@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Lint HTMl') {
       sh 'echo "test file"'
-      tidy -q -e index.html
+      tidy -q -e *.html
     }
     stage('Upload to AWS') {
       steps {
