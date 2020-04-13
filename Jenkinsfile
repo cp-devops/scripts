@@ -7,7 +7,7 @@ pipeline {
         sh '''
             echo "Multi-line shell steps work"
             ls -lah
-            '''
+          '''
       }
     }
 
